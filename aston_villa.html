@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Aston Villa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body class="astonvilla">
+    <div class="header">
+        <img src="Pictures/Aston Villa/Aston Villa crest.png"  class="crest">
+        <h1>Aston Villa</h1>
+        <img src= "Pictures/Aston Villa/Aston Villa crest.png" class="crest">
+    </div>
+
+    <div id="nav"></div>
+    <script>
+        $(document).ready(function() {
+            $("#nav").load("Templates/nav.html");
+        })        
+    </script>
+
+    <div class='intro'>
+        <figure>
+            <img src='Pictures/Aston Villa/Aston Villa Stadium.jpg' height='200px'>
+            <figcaption>Stadium: Villa Park</figcaption>
+        </figure>
+        <figure>
+            <img class='manager' src='Pictures/Aston Villa/Aston Villa Manager.png'>
+            <figcaption>Manager: Unai Emery</figcaption>
+        </figure>
+        <iframe height="250px" src="https://maps.google.com/maps?q=villa%20park&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <hr>
+        
+	<div class="table-responsive squad">
+		<h2>Squad</h2>
+		<br>
+		<h3>Goalkeepers</h3>
+    		<table class="table table-bordered table-hover align-middle">
+    			<thead>
+    				<th>Image</th><th>Name</th><th>Nation</th><th>No.</th>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td><img src="Pictures/Aston Villa/Martinez.png"></td>
+    					<td>Emiliano Martínez</td><td>Argentina</td><td>1</td>
+    				</tr>
+                    <tr>
+    					<td><img src="Pictures/Aston Villa/Steer.png"></td>
+    					<td>Jed Steer</td><td>England</td><td>12</td>
+    				</tr>
+					<tr>
+    					<td><img src="Pictures/Aston Villa/Olsen.png"></td>
+    					<td>Robin Olsen</td><td>Sweden</td><td>25</td>
+    				</tr>				                   
+    			</tbody>
+    		</table>
+        
+			<br>
+            <h3>Defenders</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>No.</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Cash.png"></td>
+                        <td>Matty Cash</td><td>Poland</td><td>2</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Carlos.png"></td>
+                        <td>Diego Carlos</td><td>Brazil</td><td>3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Konsa.png"></td>
+                        <td>Ezri Konsa</td><td>England</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Mings.png"></td>
+                        <td>Tyrone Mings</td><td>England</td><td>5</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Chambers.png"></td>
+                        <td>Calum Chambers</td><td>England</td><td>16</td>
+                    </tr>                    
+                    <tr class="text-primary">
+                        <td><img src="Pictures/Aston Villa/Augustinsson.png"></td>
+                        <td>Ludwig Augustinsson</td><td>Sweden</td><td>17</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Young.png"></td>
+                        <td>Ashley Young</td><td>England</td><td>18</td>
+                    </tr>                   
+                    <tr class="text-primary">
+                        <td><img src="Pictures/Aston Villa/Tomiyasu.png"></td>
+                        <td>Jan Bednarek</td><td>Poland</td><td>20</td>
+                    </tr> 
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Guilbert.png"></td>
+                        <td>Frédéric Guilbert</td><td>France</td><td>21</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Digne.png"></td>
+                        <td>Lucas Digne</td><td>France</td><td>27</td>
+                    </tr>                 
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Aston Villa/Zinchenko.png"></td>
+                        <td>Kortney Hause</td><td>England</td><td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Midfielders</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>No.</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Luiz.png"></td>
+                        <td>Douglas Luiz</td><td>Brazil</td><td>6</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Saka.png"></td>
+                        <td>John McGinn</td><td>Scotland</td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Odegaard.png"></td>
+                        <td>Morgan Sanson</td><td>France</td><td>8</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Buendia.png"></td>
+                        <td>Emiliano Buendía</td><td>Argentina</td><td>10</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Nakamba.png"></td>
+                        <td>Marvelous Nakamba</td><td>Zimbabwe</td><td>19</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Coutinho.png"></td>
+                        <td>Philippe Coutinho</td><td>Brazil</td><td>23</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Dendoncker.png"></td>
+                        <td>Leander Dendoncker</td><td>Belgium</td><td>32</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Ramsey.png"></td>
+                        <td>Jacob Ramsey</td><td>England</td><td>41</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Kamara.png"></td>
+                        <td>Boubacar Kamara</td><td>France</td><td>44</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Iroegbunam.png"></td>
+                        <td>Tim Iroegbunam</td><td>England</td><td>47</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Forwards</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>No.</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Ings.png"></td>
+                        <td>Danny Ings</td><td>England</td><td>9</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Watkins.png"></td>
+                        <td>Ollie Watkins</td><td>England</td><td>11</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Aston Villa/Traore.png"></td>
+                        <td>Bertrand Traore</td><td>Burkina Faso</td><td>15</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Bailey.png"></td>
+                        <td>Leon Bailey</td><td>Jamaica</td><td>31</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Aston Villa/Archer.png"></td>
+                        <td>Cameron Archer</td><td>England</td><td>35</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Aston Villa/Davis.png"></td>
+                        <td>Keinan Davis</td><td>England</td><td>39</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Aston Villa/Wesley.png"></td>
+                        <td>Wesley</td><td>Brazil</td><td>-</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Aston Villa/Vassilev.png"></td>
+                        <td>Indiana Vassilev</td><td>USA</td><td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+	</div>
+			<hr>
+            <div class='titles'>
+                <h2>Titles</h2>
+                    <h3>Domestic Competitions:</h3>
+                        <h3>League</h3>
+                            <h4>First Division(7):</h4>
+                                <p>1893-93, 1895–96, 1896–97, 1898–99, 1899–1900, 1909–10, 1980–81</p>
+                        <h3>Cups</h3>
+                            <h4>FA Cup (7):</h4>
+                                <p>1886–87, 1894–95, 1896–97, 1904–05, 1912–13, 1919–20, 1956–57</p>
+                            <h4>League Cup (5):</h4>
+                                <p>1960–61, 1974–75, 1976–77, 1993–94, 1995–96</p>
+                            <h4>FA Charity Shield (1):</h4>
+                                <p>1981</p>
+                    <h3>European Competitions</h3>
+                        <h4>European Cup (1):</h4>
+                            <p>1981-82</p>
+                        <h4>European Super Cup (1):</h4>
+                            <p>1982</p>
+                        <h4>Intertoto Cup (1):</h4>
+                            <p>2001</p>
+            </div>
+        <div id="footer"></div>
+        <script>
+            $(document).ready(function() {
+                $("#footer").load("Templates/footer.html");
+            })        
+        </script>
+    </body>
+</html>

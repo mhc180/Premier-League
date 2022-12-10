@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Tables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="Pictures/Premier League crest.png"  class="crest">
+        <h1 class="title">Tables</h1>
+        <img src= "Pictures/Premier League crest.png" class="crest">
+    </div>
+
+    <div id="nav"></div>
+    <script>
+        $(document).ready(function() {
+            $("#nav").load("Templates/nav.html");
+        })        
+    </script>
+
+    <ul class="table-menu">
+        <li><a href="#22/23">2022/23</a></li>
+        <li><a href="#21/22">2021/22</a></li>
+        <li><a href="#20/21">2020/21</a></li>
+        <li><a href="#19/20">2019/20</a></li>
+        <li><a href="#18/19">2018/19</a></li>
+        <li><a href="#17/18">2017/18</a></li>
+        <li><a href="#16/17">2016/17</a></li>
+        <li><a href="#15/16">2015/16</a></li>
+        <li><a href="#14/15">2014/15</a></li>
+        <li><a href="#13/14">2013/14</a></li>
+        <li><a href="#12/13">2012/13</a></li>
+        <li><a href="#11/12">2011/12</a></li>
+        <li><a href="#10/11">2010/11</a></li>
+        <li><a href="#09/10">2009/10</a></li>
+        <li><a href="#08/09">2008/09</a></li>
+        <li><a href="#07/08">2007/08</a></li>
+        <li><a href="#06/07">2006/07</a></li>
+        <li><a href="#05/06">2005/06</a></li>
+        <li><a href="#04/05">2004/05</a></li>
+        <li><a href="#03/04">2003/04</a></li>
+        <li><a href="#02/03">2002/03</a></li>
+        <li><a href="#01/02">2001/02</a></li>
+        <li><a href="#00/01">2000/01</a></li>
+        <li><a href="#99/00">1999/00</a></li>
+        <li><a href="#98/99">1998/99</a></li>
+        <li><a href="#97/98">1997/98</a></li>
+        <li><a href="#96/97">1996/97</a></li>
+        <li><a href="#95/96">1995/96</a></li>
+        <li><a href="#94/95">1994/95</a></li>
+        <li><a href="#93/94">1993/94</a></li>
+        <li><a href="#92/93">1992/93</a></li>
+    </ul>
+
+        <div class="row">
+            <table>
+                <caption>2019/20</caption>
+                <thead>
+                    <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th>
+                </thead>
+                <tbody>
+                    <tr class="table-success">
+                        <td>1</td><td>Liverpool</td><td>38</td><td>32</td><td>3</td><td>3</td><td>85</td><td>33</td><td>52</td><td>99</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>2</td><td>Man City</td><td>38</td><td>26</td><td>3</td><td>9</td><td>102</td><td>35</td><td>67</td><td>81</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>3</td><td>Man United</td><td>38</td><td>18</td><td>12</td><td>8</td><td>66</td><td>36</td><td>30</td><td>66</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>4</td><td>Chelsea</td><td>38</td><td>20</td><td>6</td><td>12</td><td>69</td><td>54</td><td>15</td><td>66</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>5</td><td>Leicester</td><td>38</td><td>18</td><td>8</td><td>12</td><td>67</td><td>41</td><td>26</td><td>62</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td>6</td><td>Tottenham</td><td>38</td><td>16</td><td>11</td><td>11</td><td>61</td><td>47</td><td>14</td><td>59</td>
+                    </tr>
+                    <tr>
+                        <td>7</td><td>Wolves</td><td>38</td><td>15</td><td>14</td><td>9</td><td>51</td><td>40</td><td>11</td><td>59</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>8</td><td>Arsenal</td><td>38</td><td>14</td><td>14</td><td>10</td><td>56</td><td>48</td><td>8</td><td>56</td>
+                    </tr>
+                    <tr>
+                        <td>9</td><td>Sheffield Utd</td><td>38</td><td>14</td><td>12</td><td>12</td><td>39</td><td>39</td><td>0</td><td>54</td>
+                    </tr>
+                    <tr>
+                        <td>10</td><td>Burnley</td><td>38</td><td>15</td><td>9</td><td>14</td><td>43</td><td>50</td><td>-7</td><td>54</td>
+                    </tr>
+                    <tr>
+                        <td>11</td><td>Southampton</td><td>38</td><td>15</td><td>7</td><td>16</td><td>51</td><td>60</td><td>-9</td><td>52</td>
+                    </tr>
+                    <tr>
+                        <td>12</td><td>Everton</td><td>38</td><td>13</td><td>10</td><td>15</td><td>44</td><td>56</td><td>-12</td><td>49</td>
+                    </tr>
+                    <tr>
+                        <td>13</td><td>Newcastle</td><td>38</td><td>11</td><td>11</td><td>16</td><td>38</td><td>58</td><td>-20</td><td>44</td>
+                    </tr>
+                    <tr>
+                        <td>14</td><td>Crystal Palace</td><td>38</td><td>11</td><td>10</td><td>17</td><td>31</td><td>50</td><td>-19</td><td>43</td>
+                    </tr>
+                    <tr>
+                        <td>15</td><td>Brighton</td><td>38</td><td>9</td><td>14</td><td>15</td><td>39</td><td>54</td><td>-15</td><td>41</td>
+                    </tr>
+                    <tr>
+                        <td>16</td><td>West Ham</td><td>38</td><td>10</td><td>9</td><td>19</td><td>49</td><td>62</td><td>-13</td><td>39</td>
+                    </tr>
+                    <tr>
+                        <td>17</td><td>Aston Villa</td><td>38</td><td>9</td><td>8</td><td>21</td><td>41</td><td>67</td><td>-26</td><td>35</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>18</td><td>Bournemouth</td><td>38</td><td>9</td><td>7</td><td>22</td><td>40</td><td>65</td><td>-25</td><td>34</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>19</td><td>Watford</td><td>38</td><td>8</td><td>10</td><td>20</td><td>36</td><td>64</td><td>-28</td><td>34</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>20</td><td>Norwich</td><td>38</td><td>5</td><td>6</td><td>27</td><td>26</td><td>75</td><td>-49</td><td>21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="row">
+            <table>
+                <caption>2018/19</caption>
+                <thead>
+                    <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th>
+                </thead>
+                <tbody>
+                    <tr class="table-success">
+                        <td>1</td><td>Man City</td><td>38</td><td>32</td><td>2</td><td>4</td><td>95</td><td>23</td><td>72</td><td>98</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>2</td><td>Liverpool</td><td>38</td><td>30</td><td>7</td><td>1</td><td>89</td><td>22</td><td>67</td><td>97</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>3</td><td>Chelsea</td><td>38</td><td>21</td><td>9</td><td>8</td><td>63</td><td>39</td><td>24</td><td>72</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>4</td><td>Tottenham</td><td>38</td><td>23</td><td>2</td><td>13</td><td>67</td><td>39</td><td>28</td><td>71</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>5</td><td>Arsenal</td><td>38</td><td>21</td><td>7</td><td>10</td><td>73</td><td>51</td><td>22</td><td>70</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>6</td><td>Man United</td><td>38</td><td>19</td><td>9</td><td>10</td><td>65</td><td>54</td><td>11</td><td>66</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td>7</td><td>Wolves</td><td>38</td><td>16</td><td>9</td><td>13</td><td>47</td><td>46</td><td>1</td><td>57</td>
+                    </tr>
+                    <tr>
+                        <td>8</td><td>Everton</td><td>38</td><td>15</td><td>9</td><td>14</td><td>54</td><td>46</td><td>8</td><td>54</td>
+                    </tr>
+                    <tr>
+                        <td>9</td><td>Leicester City</td><td>38</td><td>15</td><td>7</td><td>16</td><td>51</td><td>48</td><td>3</td><td>52</td>
+                    </tr>
+                    <tr>
+                        <td>10</td><td>West Ham</td><td>38</td><td>15</td><td>7</td><td>16</td><td>52</td><td>55</td><td>-3</td><td>52</td>
+                    </tr>
+                    <tr>
+                        <td>11</td><td>Watford</td><td>38</td><td>14</td><td>8</td><td>16</td><td>52</td><td>59</td><td>-7</td><td>50</td>
+                    </tr>
+                    <tr>
+                        <td>12</td><td>Crystal Palace</td><td>38</td><td>14</td><td>7</td><td>17</td><td>51</td><td>53</td><td>-2</td><td>49</td>
+                    </tr>
+                    <tr>
+                        <td>13</td><td>Newcastle</td><td>38</td><td>12</td><td>9</td><td>17</td><td>42</td><td>48</td><td>-6</td><td>45</td>
+                    </tr>
+                    <tr>
+                        <td>14</td><td>Bournemouth</td><td>38</td><td>13</td><td>6</td><td>19</td><td>56</td><td>70</td><td>-14</td><td>45</td>
+                    </tr>
+                    <tr>
+                        <td>15</td><td>Burnley</td><td>38</td><td>11</td><td>7</td><td>20</td><td>45</td><td>68</td><td>-23</td><td>40</td>
+                    </tr>
+                    <tr>
+                        <td>16</td><td>Southampton</td><td>38</td><td>9</td><td>12</td><td>17</td><td>45</td><td>65</td><td>-20</td><td>39</td>
+                    </tr>
+                    <tr>
+                        <td>17</td><td>Brighton</td><td>38</td><td>9</td><td>9</td><td>20</td><td>35</td><td>60</td><td>-25</td><td>36</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>18</td><td>Cardiff</td><td>38</td><td>10</td><td>4</td><td>24</td><td>34</td><td>69</td><td>-35</td><td>34</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>19</td><td>Fulham</td><td>38</td><td>7</td><td>5</td><td>26</td><td>34</td><td>81</td><td>-47</td><td>26</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>20</td><td>Huddersfield</td><td>38</td><td>3</td><td>7</td><td>28</td><td>22</td><td>76</td><td>-54</td><td>16</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+        </div>
+
+        <div class="container-fluid">
+            <div class="row gx-4">
+                <div class="col">
+                    <table id="97/98" class="p-3 table table-bordered">
+                        <caption>1997/98</caption>
+                        <thead>
+                            <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Qualification/Relegation</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>1</td><td>Arsenal</td><td>38</td><td>21</td><td>12</td><td>5</td><td>76</td><td>44</td><td>32</td><td>75</td><td class="twrap">Qualified for Champions League group stage</td>
+                            </tr>
+                            <tr class="lgreen">
+                                <td>2</td><td>Manchester United</td><td>38</td><td>19</td><td>11</td><td>8</td><td>73</td><td>40</td><td>33</td><td>68</td><td class="twrap">Qualified for Champions Leauge second qualifying round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>3</td><td>Liverpool</td><td>38</td><td>19</td><td>11</td><td>8</td><td>62</td><td>32</td><td>30</td><td>68</td><td class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>4</td><td>Chelsea</td><td>38</td><td>19</td><td>11</td><td>8</td><td>62</td><td>37</td><td>25</td><td>68</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>5</td><td>Leeds United</td><td>38</td><td>17</td><td>10</td><td>11</td><td>47</td><td>34</td><td>13</td><td>61</td><td rowspan="3" class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>6</td><td>Blackburn Rovers</td><td>38</td><td>16</td><td>11</td><td>11</td><td>58</td><td>55</td><td>3</td><td>59</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>7</td><td>Aston Villa</td><td>38</td><td>14</td><td>15</td><td>9</td><td>50</td><td>51</td><td>-1</td><td>57</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>West Ham United</td><td>38</td><td>15</td><td>11</td><td>12</td><td>49</td><td>46</td><td>3</td><td>56</td><td rowspan="5"></td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Derby County</td><td>38</td><td>12</td><td>11</td><td>15</td><td>46</td><td>54</td><td>-8</td><td>47</td>
+                            </tr>
+                            <tr>
+                                <td>10</td><td>Leicester City</td><td>38</td><td>13</td><td>7</td><td>18</td><td>44</td><td>51</td><td>-7</td><td>46</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Coventry City</td><td>38</td><td>11</td><td>13</td><td>14</td><td>28</td><td>38</td><td>-10</td><td>46</td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Southampton</td><td>38</td><td>11</td><td>13</td><td>14</td><td>45</td><td>58</td><td>-15</td><td>46</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>13</td><td>Newcastle United</td><td>38</td><td>9</td><td>15</td><td>14</td><td>42</td><td>43</td><td>-1</td><td>42</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>Tottenham Hotspur</td><td>38</td><td>10</td><td>12</td><td>16</td><td>39</td><td>48</td><td>-9</td><td>42</td><td rowspan="4"></td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Wimbledon</td><td>38</td><td>10</td><td>12</td><td>16</td><td>44</td><td>57</td><td>-13</td><td>42</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Sheffield Wednesday</td><td>38</td><td>10</td><td>11</td><td>17</td><td>50</td><td>56</td><td>-6</td><td>41</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Everton</td><td>38</td><td>9</td><td>14</td><td>15</td><td>38</td><td>54</td><td>-16</td><td>41</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>18</td><td>Bolton Wanders</td><td>38</td><td>10</td><td>10</td><td>18</td><td>35</td><td>53</td><td>-18</td><td>40</td><td rowspan="3" class="twrap">Relegated</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>19</td><td>Barnsley</td><td>38</td><td>10</td><td>12</td><td>16</td><td>51</td><td>60</td><td>-9</td><td>39</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>20</td><td>Crystal Palace</td><td>38</td><td>6</td><td>16</td><td>16</td><td>31</td><td>59</td><td>-28</td><td>34</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <table id="96/97" class="p-3 table table-bordered">
+                        <caption>1996/97</caption>
+                        <thead>
+                            <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Qualification/Relegation</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>1</td><td>Manchester United</td><td>38</td><td>21</td><td>12</td><td>5</td><td>76</td><td>44</td><td>32</td><td>75</td><td class="twrap">Qualified for Champions League group stage</td>
+                            </tr>
+                            <tr class="lgreen">
+                                <td>2</td><td>Newcastle United</td><td>38</td><td>19</td><td>11</td><td>8</td><td>73</td><td>40</td><td>33</td><td>68</td><td class="twrap">Qualified for Champions Leauge second qualifying round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>3</td><td>Arsenal</td><td>38</td><td>19</td><td>11</td><td>8</td><td>62</td><td>32</td><td>30</td><td>68</td><td rowspan="3" class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>4</td><td>Liverpool</td><td>38</td><td>19</td><td>11</td><td>8</td><td>62</td><td>37</td><td>25</td><td>68</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>5</td><td>Aston Villa</td><td>38</td><td>17</td><td>10</td><td>11</td><td>47</td><td>34</td><td>13</td><td>61</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>6</td><td>Chelsea</td><td>38</td><td>16</td><td>11</td><td>11</td><td>58</td><td>55</td><td>3</td><td>59</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Sheffield Wednesday</td><td>38</td><td>14</td><td>15</td><td>9</td><td>50</td><td>51</td><td>-1</td><td>57</td><td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Wimbledon</td><td>38</td><td>15</td><td>11</td><td>12</td><td>49</td><td>46</td><td>3</td><td>56</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>9</td><td>Leicester City</td><td>38</td><td>12</td><td>11</td><td>15</td><td>46</td><td>54</td><td>-8</td><td>47</td><td class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>10</td><td>Tottenham Hotspur</td><td>38</td><td>13</td><td>7</td><td>18</td><td>44</td><td>51</td><td>-7</td><td>46</td><td rowspan="8"></td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Leeds United</td><td>38</td><td>11</td><td>13</td><td>14</td><td>28</td><td>38</td><td>-10</td><td>46</td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Derby County</td><td>38</td><td>11</td><td>13</td><td>14</td><td>45</td><td>58</td><td>-15</td><td>46</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>Blackburn Rovers</td><td>38</td><td>9</td><td>15</td><td>14</td><td>42</td><td>43</td><td>-1</td><td>42</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>West Ham United</td><td>38</td><td>10</td><td>12</td><td>16</td><td>39</td><td>48</td><td>-9</td><td>42</td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Everton</td><td>38</td><td>10</td><td>12</td><td>16</td><td>44</td><td>57</td><td>-13</td><td>42</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Southampton</td><td>38</td><td>10</td><td>11</td><td>17</td><td>50</td><td>56</td><td>-6</td><td>41</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Coventry City</td><td>38</td><td>9</td><td>14</td><td>15</td><td>38</td><td>54</td><td>-16</td><td>41</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>18</td><td>Sunderland</td><td>38</td><td>10</td><td>10</td><td>18</td><td>35</td><td>53</td><td>-18</td><td>40</td><td rowspan="3" class="twrap">Relegated</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>19</td><td>Middlesbrough</td><td>38</td><td>10</td><td>12</td><td>16</td><td>51</td><td>60</td><td>-9</td><td>39</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>20</td><td>Nottingham Forest</td><td>38</td><td>6</td><td>16</td><td>16</td><td>31</td><td>59</td><td>-28</td><td>34</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>        
+
+        <div class="container-fluid">
+            <div class="row gx-4">
+                <div class="col">
+                    <table id="95/96" class="p-3 table table-bordered">
+                        <caption>1995/96</caption>
+                        <thead>
+                            <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Qualification/Relegation</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>1</td><td>Manchester United</td><td>38</td><td>25</td><td>7</td><td>6</td><td>73</td><td>35</td><td>38</td><td>82</td><td class="twrap">Qualified for Champions League group stage</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>2</td><td>Newcastle United</td><td>38</td><td>24</td><td>6</td><td>8</td><td>66</td><td>37</td><td>29</td><td>78</td><td class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>3</td><td>Liverpool</td><td>38</td><td>20</td><td>11</td><td>7</td><td>70</td><td>34</td><td>36</td><td>71</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>4</td><td>Aston Villa</td><td>38</td><td>18</td><td>9</td><td>11</td><td>52</td><td>35</td><td>17</td><td>63</td><td rowspan="2" class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>5</td><td>Arsenal</td><td>38</td><td>17</td><td>12</td><td>9</td><td>49</td><td>32</td><td>17</td><td>63</td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>Everton</td><td>38</td><td>17</td><td>10</td><td>11</td><td>64</td><td>44</td><td>20</td><td>61</td><td rowspan="12"></td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Blackburn Rovers</td><td>38</td><td>18</td><td>7</td><td>13</td><td>61</td><td>47</td><td>14</td><td>61</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Tottenham Hotspur</td><td>38</td><td>16</td><td>13</td><td>9</td><td>50</td><td>38</td><td>12</td><td>61</td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Nottingham Forest</td><td>38</td><td>15</td><td>13</td><td>10</td><td>50</td><td>54</td><td>-4</td><td>58</td>
+                            </tr>
+                            <tr>
+                                <td>10</td><td>West Ham United</td><td>38</td><td>14</td><td>9</td><td>15</td><td>43</td><td>52</td><td>-9</td><td>51</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Chelsea</td><td>38</td><td>12</td><td>14</td><td>12</td><td>46</td><td>44</td><td>2</td><td>50</td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Middlesbrough</td><td>38</td><td>11</td><td>10</td><td>17</td><td>35</td><td>50</td><td>-15</td><td>43</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>Leeds United</td><td>38</td><td>12</td><td>7</td><td>19</td><td>40</td><td>57</td><td>-17</td><td>43</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>Wimbledon</td><td>38</td><td>10</td><td>11</td><td>17</td><td>55</td><td>70</td><td>-15</td><td>41</td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Sheffield Wednesday</td><td>38</td><td>10</td><td>10</td><td>18</td><td>48</td><td>61</td><td>-13</td><td>40</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Coventry City</td><td>38</td><td>8</td><td>14</td><td>16</td><td>42</td><td>60</td><td>-18</td><td>38</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Southampton</td><td>38</td><td>9</td><td>11</td><td>18</td><td>34</td><td>52</td><td>-18</td><td>38</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>18</td><td>Manchester City</td><td>38</td><td>9</td><td>11</td><td>18</td><td>33</td><td>58</td><td>-25</td><td>38</td><td rowspan="3" class="twrap">Relegated</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>19</td><td>Queens Park Rangers</td><td>38</td><td>9</td><td>6</td><td>23</td><td>38</td><td>57</td><td>-19</td><td>33</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>20</td><td>Bolton Wanderers</td><td>38</td><td>8</td><td>5</td><td>25</td><td>39</td><td>71</td><td>-32</td><td>29</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <table id="94/95" class="p-3 table table-bordered">
+                        <caption>1994/95</caption>
+                        <thead>
+                            <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Qualification/Relegation</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>1</td><td>Blackburn Rovers</td><td>42</td><td>27</td><td>8</td><td>7</td><td>80</td><td>39</td><td>41</td><td>89</td><td class="twrap">Qualified for Champions League group stage</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>2</td><td>Manchester United</td><td>42</td><td>26</td><td>10</td><td>6</td><td>77</td><td>28</td><td>49</td><td>88</td><td rowspan="4" class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>3</td><td>Nottingham Forest</td><td>42</td><td>22</td><td>11</td><td>9</td><td>72</td><td>43</td><td>29</td><td>77</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>4</td><td>Liverpool</td><td>42</td><td>21</td><td>11</td><td>10</td><td>65</td><td>37</td><td>28</td><td>74</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>5</td><td>Leeds United</td><td>42</td><td>20</td><td>13</td><td>9</td><td>59</td><td>38</td><td>21</td><td>73</td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>Newcastle United</td><td>42</td><td>20</td><td>12</td><td>10</td><td>67</td><td>47</td><td>20</td><td>72</td><td rowspan="9"></td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Tottenham Hotspur</td><td>42</td><td>16</td><td>14</td><td>12</td><td>66</td><td>58</td><td>8</td><td>62</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Queens Park Rangers</td><td>42</td><td>17</td><td>9</td><td>16</td><td>61</td><td>59</td><td>2</td><td>60</td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Wimbledon</td><td>42</td><td>15</td><td>11</td><td>16</td><td>48</td><td>65</td><td>-17</td><td>56</td>
+                            </tr>
+                            <tr>
+                                <td>10</td><td>Southampton</td><td>42</td><td>12</td><td>18</td><td>12</td><td>61</td><td>63</td><td>-2</td><td>54</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Chelsea</td><td>42</td><td>13</td><td>15</td><td>14</td><td>50</td><td>55</td><td>-5</td><td>54</td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Arsenal</td><td>42</td><td>13</td><td>12</td><td>17</td><td>52</td><td>49</td><td>3</td><td>51</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>Sheffield United</td><td>42</td><td>13</td><td>12</td><td>17</td><td>49</td><td>57</td><td>-8</td><td>51</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>West Ham United</td><td>42</td><td>13</td><td>11</td><td>18</td><td>44</td><td>48</td><td>-4</td><td>50</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>15</td><td>Everton</td><td>42</td><td>11</td><td>17</td><td>14</td><td>44</td><td>51</td><td>-7</td><td>50</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Coventry City</td><td>42</td><td>12</td><td>14</td><td>16</td><td>44</td><td>62</td><td>-18</td><td>50</td><td rowspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Manchester City</td><td>42</td><td>12</td><td>13</td><td>17</td><td>53</td><td>64</td><td>-11</td><td>49</td>
+                            </tr>
+                            <tr>
+                                <td>18</td><td>Aston Villa</td><td>42</td><td>11</td><td>15</td><td>16</td><td>51</td><td>56</td><td>-5</td><td>484</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>19</td><td>Crystal Palace</td><td>42</td><td>11</td><td>12</td><td>19</td><td>34</td><td>49</td><td>-15</td><td>45</td><td rowspan="4" class="twrap">Relegation to the Football League First Division</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>20</td><td>Norwich City</td><td>42</td><td>10</td><td>13</td><td>19</td><td>37</td><td>54</td><td>-17</td><td>43</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>21</td><td>Leicester City</td><td>42</td><td>6</td><td>11</td><td>25</td><td>45</td><td>80</td><td>-35</td><td>29</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>22</td><td>Ipswich Town</td><td>42</td><td>7</td><td>6</td><td>29</td><td>36</td><td>93</td><td>-57</td><td>27</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row gx-4">
+                <div class="col">
+                    <table id="93/94" class="p-3 table table-bordered">
+                        <caption>1993/94</caption>
+                        <thead>
+                            <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Qualification/Relegation</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>1</td><td>Manchester United</td><td>42</td><td>27</td><td>11</td><td>4</td><td>80</td><td>38</td><td>42</td><td>92</td><td class="twrap">Qualified for Champions League group stage</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>2</td><td>Blackburn Rovers</td><td>42</td><td>25</td><td>9</td><td>8</td><td>63</td><td>36</td><td>27</td><td>84</td><td rowspan="2" class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>3</td><td>Newcastle United</td><td>42</td><td>23</td><td>8</td><td>11</td><td>82</td><td>41</td><td>41</td><td>77</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>4</td><td>Arsenal</td><td>42</td><td>18</td><td>17</td><td>7</td><td>53</td><td>28</td><td>25</td><td>71</td><td class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>5</td><td>Leeds United</td><td>42</td><td>18</td><td>16</td><td>8</td><td>65</td><td>39</td><td>26</td><td>70</td><td rowspan="5"></td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>Wimbledon</td><td>42</td><td>18</td><td>11</td><td>13</td><td>56</td><td>53</td><td>3</td><td>65</td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Sheffield Wednesday</td><td>42</td><td>16</td><td>16</td><td>10</td><td>76</td><td>54</td><td>22</td><td>64</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Liverpool</td><td>42</td><td>17</td><td>9</td><td>16</td><td>59</td><td>55</td><td>4</td><td>60</td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Queens Park Rangers</td><td>42</td><td>16</td><td>12</td><td>14</td><td>62</td><td>61</td><td>1</td><td>60</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>10</td><td>Aston Villa</td><td>42</td><td>15</td><td>12</td><td>15</td><td>46</td><td>50</td><td>-4</td><td>57</td><td class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Coventry City</td><td>42</td><td>14</td><td>14</td><td>14</td><td>43</td><td>45</td><td>-2</td><td>56</td><td rowspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Norwich City</td><td>42</td><td>12</td><td>17</td><td>13</td><td>65</td><td>61</td><td>4</td><td>53</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>West Ham United</td><td>42</td><td>13</td><td>13</td><td>16</td><td>47</td><td>58</td><td>-11</td><td>52</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>14</td><td>Chelsea</td><td>42</td><td>13</td><td>12</td><td>17</td><td>49</td><td>53</td><td>-4</td><td>51</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Tottenham Hotspur</td><td>42</td><td>11</td><td>12</td><td>19</td><td>54</td><td>59</td><td>-5</td><td>45</td><td rowspan="5"></td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Manchester City</td><td>42</td><td>9</td><td>18</td><td>15</td><td>38</td><td>49</td><td>-11</td><td>45</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Everton</td><td>42</td><td>12</td><td>8</td><td>22</td><td>42</td><td>63</td><td>-21</td><td>44</td>
+                            </tr>
+                            <tr>
+                                <td>18</td><td>Southampton</td><td>42</td><td>12</td><td>7</td><td>23</td><td>49</td><td>66</td><td>-17</td><td>43</td>
+                            </tr>
+                            <tr>
+                                <td>19</td><td>Ipswich Town</td><td>42</td><td>9</td><td>16</td><td>17</td><td>35</td><td>58</td><td>-23</td><td>43</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>20</td><td>Sheffield United</td><td>42</td><td>8</td><td>18</td><td>16</td><td>42</td><td>60</td><td>-18</td><td>42</td><td rowspan="3" class="twrap">Relegated</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>21</td><td>Oldham Athletic</td><td>42</td><td>9</td><td>13</td><td>20</td><td>42</td><td>68</td><td>-26</td><td>40</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>22</td><td>Swindon Town</td><td>42</td><td>5</td><td>15</td><td>22</td><td>47</td><td>100</td><td>-53</td><td>30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <table id="92/93" class="p-3 table table-bordered">
+                        <caption>1992/93</caption>
+                        <thead>
+                            <th>Pos</th><th>Team</th><th>Pld</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th><th>Qualification/Relegation</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table-success">
+                                <td>1</td><td>Manchester United</td><td>42</td><td>24</td><td>12</td><td>6</td><td>67</td><td>31</td><td>36</td><td>84</td><td class="twrap">Qualified for Champions League first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>2</td><td>Aston Villa</td><td>42</td><td>21</td><td>11</td><td>10</td><td>57</td><td>40</td><td>17</td><td>74</td><td rowspan="2" class="twrap">Qualified for UEFA Cup first round</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>3</td><td>Norwich City</td><td>42</td><td>21</td><td>9</td><td>12</td><td>61</td><td>65</td><td>-4</td><td>72</td>
+                            </tr>
+                            <tr>
+                                <td>4</td><td>Blackburn Rovers</td><td>42</td><td>20</td><td>11</td><td>11</td><td>68</td><td>46</td><td>22</td><td>71</td><td rowspan="6"></td>
+                            </tr>
+                            <tr>
+                                <td>5</td><td>Queens Park Rangers</td><td>42</td><td>17</td><td>12</td><td>13</td><td>63</td><td>55</td><td>8</td><td>63</td>
+                            </tr>
+                            <tr>
+                                <td>6</td><td>Liverpool</td><td>42</td><td>16</td><td>11</td><td>15</td><td>62</td><td>55</td><td>7</td><td>59</td>
+                            </tr>
+                            <tr>
+                                <td>7</td><td>Sheffield Wednesday</td><td>42</td><td>15</td><td>14</td><td>13</td><td>55</td><td>51</td><td>4</td><td>59</td>
+                            </tr>
+                            <tr>
+                                <td>8</td><td>Tottenham Hotspur</td><td>42</td><td>16</td><td>11</td><td>15</td><td>60</td><td>66</td><td>-6</td><td>59</td>
+                            </tr>
+                            <tr>
+                                <td>9</td><td>Manchester City</td><td>42</td><td>15</td><td>12</td><td>15</td><td>56</td><td>51</td><td>5</td><td>57</td>
+                            </tr>
+                            <tr class="table-warning">
+                                <td>10</td><td>Arsenal</td><td>42</td><td>15</td><td>11</td><td>16</td><td>40</td><td>38</td><td>2</td><td>56</td><td class="twrap">Qualified for Cup Winners' Cup first round</td>
+                            </tr>
+                            <tr>
+                                <td>11</td><td>Chelsea</td><td>42</td><td>14</td><td>14</td><td>14</td><td>51</td><td>54</td><td>-3</td><td>56</td><td rowspan="9"></td>
+                            </tr>
+                            <tr>
+                                <td>12</td><td>Wimbledon</td><td>42</td><td>14</td><td>12</td><td>16</td><td>56</td><td>55</td><td>1</td><td>64</td>
+                            </tr>
+                            <tr>
+                                <td>13</td><td>Everton</td><td>42</td><td>15</td><td>8</td><td>19</td><td>53</td><td>55</td><td>-2</td><td>53</td>
+                            </tr>
+                            <tr>
+                                <td>14</td><td>Sheffield United</td><td>42</td><td>14</td><td>10</td><td>18</td><td>54</td><td>53</td><td>1</td><td>52</td>
+                            </tr>
+                            <tr>
+                                <td>15</td><td>Coventry City</td><td>42</td><td>13</td><td>13</td><td>16</td><td>52</td><td>57</td><td>-5</td><td>52</td>
+                            </tr>
+                            <tr>
+                                <td>16</td><td>Ipswich Town</td><td>42</td><td>12</td><td>16</td><td>14</td><td>50</td><td>55</td><td>-5</td><td>52</td>
+                            </tr>
+                            <tr>
+                                <td>17</td><td>Leeds United</td><td>42</td><td>12</td><td>15</td><td>15</td><td>57</td><td>62</td><td>-5</td><td>51</td>
+                            </tr>
+                            <tr>
+                                <td>18</td><td>Southampton</td><td>42</td><td>13</td><td>11</td><td>18</td><td>54</td><td>61</td><td>-7</td><td>50</td>
+                            </tr>
+                            <tr>
+                                <td>19</td><td>Oldham Athletic</td><td>42</td><td>13</td><td>10</td><td>19</td><td>63</td><td>74</td><td>-11</td><td>49</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>20</td><td>Crystal Palace</td><td>42</td><td>11</td><td>16</td><td>15</td><td>48</td><td>61</td><td>-13</td><td>49</td><td rowspan="3" class="twrap">Relegated</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>21</td><td>Middlesbrough</td><td>42</td><td>11</td><td>11</td><td>20</td><td>54</td><td>75</td><td>-21</td><td>44</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>22</td><td>Nottingham Forest</td><td>42</td><td>10</td><td>10</td><td>22</td><td>41</td><td>62</td><td>-21</td><td>40</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    <div id="footer"></div>
+    <script>
+        $(document).ready(function() {
+            $("#footer").load("Templates/footer.html");
+        })        
+    </script>
+</body>
+</html>

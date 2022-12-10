@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Tottenham Hotspur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body class="tottenham">
+    <div class="header">
+        <img src="Pictures/Tottenham/Tottenham crest.png"  class="crest">
+        <h1>Tottenham Hotspur</h1>
+        <img src= "Pictures/Tottenham/Tottenham crest.png" class="crest">
+    </div>
+
+    <div id="nav"></div>
+    <script>
+        $(document).ready(function() {
+            $("#nav").load("Templates/nav.html");
+        })        
+    </script>
+
+    <div class='intro'>
+        <figure>
+            <img src='Pictures/Tottenham/Tottenham Stadium.jpg' height='200px'>
+            <figcaption>Stadium: Tottenham Hotspur Stadium</figcaption>
+        </figure>
+        <figure>
+            <img class='manager' src='Pictures/Tottenham/Tottenham Manager.png'>
+            <figcaption>Manager: Antonio Conte</figcaption>
+        </figure>
+        <iframe height="250px" src="https://maps.google.com/maps?q=tottenham%20hotspur%20stadium&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <hr>
+        
+	<div class="table-responsive squad">
+		<h2>Squad</h2>
+		<br>
+		<h3>Goalkeepers</h3>
+    		<table class="table table-bordered table-hover align-middle">
+    			<thead>
+    				<th>Image</th><th>Name</th><th>Nation</th><th>No.</th>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td><img src="Pictures/Tottenham/Ramsdale.png"></td>
+    					<td>Aaron Ramsdale</td><td>England</td><td>1</td>
+    				</tr>
+                    <tr>
+    					<td><img src="Pictures/Tottenham/Runarsson.png"></td>
+    					<td>Rúnar Alex Rúnarsson</td><td>Iceland</td><td>13</td>
+    				</tr>
+					<tr>
+    					<td><img src="Pictures/Tottenham/Heaton.png"></td>
+    					<td>Matt Turner</td><td>USA</td><td>30</td>
+    				</tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Tottenham/Hein.png"></td>
+                        <td>Karl Hein</td><td>Estonia</td><td>31</td>
+                    </tr>					                   
+    			</tbody>
+    		</table>
+        
+			<br>
+            <h3>Defenders</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Tierney.png"></td>
+                        <td>Kieran Tierney</td><td>Scotland</td><td>3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/White.png"></td>
+                        <td>Ben White</td><td>England</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Stones.png"></td>
+                        <td>Gabriel Magalhaes</td><td>Brazil</td><td>6</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Saliba.png"></td>
+                        <td>William Saliba</td><td>France</td><td>12</td>
+                    </tr>                    
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Holding.png"></td>
+                        <td>Rob Holding</td><td>England</td><td>16</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Laporte.png"></td>
+                        <td>Cédric Soares</td><td>Portugal</td><td>17</td>
+                    </tr>                   
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Tomiyasu.png"></td>
+                        <td>Takehiro Tomiyasu</td><td>Japan</td><td>18</td>
+                    </tr> 
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Tottenham/Portugal.png"></td>
+                        <td>Nuno Tavares</td><td>Portugal</td><td>20</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Marí.png"></td>
+                        <td>Pablo Marí</td><td>Spain</td><td>22</td>
+                    </tr>                 
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Zinchenko.png"></td>
+                        <td>Oleksandr Zinchenko</td><td>Ukraine</td><td>35</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Midfielders</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Partey.png"></td>
+                        <td>Thomas Partey</td><td>Ghana</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Saka.png"></td>
+                        <td>Bukayo Saka</td><td>England</td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Odegaard.png"></td>
+                        <td>Martin Odegaard</td><td>Norway</td><td>8</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Smith Rowe.png"></td>
+                        <td>Emile Smith Rowe</td><td>England</td><td>10</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Tottenham/Maitland-Niles.png"></td>
+                        <td>Ainsley Maitland-Niles</td><td>England</td><td>15</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Vieira.png"></td>
+                        <td>Fábio Vieira</td><td>Portugal</td><td>21</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Lokonga.png"></td>
+                        <td>Albert Sambi Lokonga</td><td>Belgium</td><td>23</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Elneny.png"></td>
+                        <td>Mohamed Elneny</td><td>Egypt</td><td>25</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Xhaka.png"></td>
+                        <td>Granit Xhaka</td><td>Switzerland</td><td>34</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Forwards</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Jesus.png"></td>
+                        <td>Gabriel Jesus</td><td>Brazil</td><td>9</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Martinelli.png"></td>
+                        <td>Gabriel Martinelli</td><td>Brazil</td><td>11</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Nketiah.png"></td>
+                        <td>Eddie Nketiah</td><td>England</td><td>14</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Tottenham/Pepe.png"></td>
+                        <td>Nicolas Pépé</td><td>Ivory Coast</td><td>19</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Nelson.png"></td>
+                        <td>Reiss Nelson</td><td>England</td><td>24</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Tottenham/Balogun.png"></td>
+                        <td>Folarin Balogun</td><td>England</td><td>26</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Tottenham/Marquinhos.png"></td>
+                        <td>Marquinhos</td><td>Brazil</td><td>27</td>
+                    </tr>
+                </tbody>
+            </table>
+	</div>
+			<hr>
+            <div class='titles'>
+                <h2>Titles</h2>
+                    <h3>Domestic Competitions:</h3>
+                        <h3>League</h3>
+                            <h4>First Division (2):</h4>
+                                <p>1950-51, 1960-61</p>
+                            <h4>Second Division (2):</h4>
+                                <p>1919-20, 1949-50</p>
+                        <h3>Cups</h3>
+                            <h4>FA Cup (8):</h4>
+                                <p>1900-01, 1920-21, 1960-61, 1961-62, 1966-67, 1980-81, 1990-91</p>
+                            <h4>League Cup (4):</h4>
+                                <p>1970-71, 1972-73, 1998-99, 2007-08</p>
+                            <h4>FA Charity Shield (7):</h4>
+                                <p>1921, 1951, 1961, 1962, 1967, 1981, 1991</p>
+                    <h3>European Competitions</h3>
+                        <h4>UEFA Cup Winners' Cup (1):</h4>
+                            <p>1962-63</p>
+                        <h4>UEFA Cup (2):</h4>
+                            <p>1971-72, 1983-84</p>
+            </div>
+        <div id="footer"></div>
+        <script>
+            $(document).ready(function() {
+                $("#footer").load("Templates/footer.html");
+            })        
+        </script>
+    </body>
+</html>

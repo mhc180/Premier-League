@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Nottingham Forest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body class="nottsforest">
+    <div class="header">
+        <img src="Pictures/Notts Forest/Notts Forest crest.png"  class="crest">
+        <h1>Nottingham Forest</h1>
+        <img src= "Pictures/Notts Forest/Notts Forest crest.png" class="crest">
+    </div>
+
+    <div id="nav"></div>
+    <script>
+        $(document).ready(function() {
+            $("#nav").load("Templates/nav.html");
+        })        
+    </script>
+
+    <div class='intro'>
+        <figure>
+            <img src='Pictures/Notts Forest/Notts Forest Stadium.jpg' height='200px'>
+            <figcaption>Stadium: The City Ground</figcaption>
+        </figure>
+        <figure>
+            <img class='manager' src='Pictures/Notts Forest/Notts Forest Manager.png'>
+            <figcaption>Manager: Steve Cooper</figcaption>
+        </figure>
+        <iframe height="250px" src="https://maps.google.com/maps?q=the%20city%20ground&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+    <hr>
+        
+	<div class="table-responsive squad">
+		<h2>Squad</h2>
+		<br>
+		<h3>Goalkeepers</h3>
+    		<table class="table table-bordered table-hover align-middle">
+    			<thead>
+    				<th>Image</th><th>Name</th><th>Nation</th><th>No.</th>
+    			</thead>
+    			<tbody>
+    				<tr>
+    					<td><img src="Pictures/Notts Forest/Ramsdale.png"></td>
+    					<td>Aaron Ramsdale</td><td>England</td><td>1</td>
+    				</tr>
+                    <tr>
+    					<td><img src="Pictures/Notts Forest/Runarsson.png"></td>
+    					<td>Rúnar Alex Rúnarsson</td><td>Iceland</td><td>13</td>
+    				</tr>
+					<tr>
+    					<td><img src="Pictures/Notts Forest/Heaton.png"></td>
+    					<td>Matt Turner</td><td>USA</td><td>30</td>
+    				</tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Notts Forest/Hein.png"></td>
+                        <td>Karl Hein</td><td>Estonia</td><td>31</td>
+                    </tr>					                   
+    			</tbody>
+    		</table>
+        
+			<br>
+            <h3>Defenders</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Tierney.png"></td>
+                        <td>Kieran Tierney</td><td>Scotland</td><td>3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/White.png"></td>
+                        <td>Ben White</td><td>England</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Stones.png"></td>
+                        <td>Gabriel Magalhaes</td><td>Brazil</td><td>6</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Saliba.png"></td>
+                        <td>William Saliba</td><td>France</td><td>12</td>
+                    </tr>                    
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Holding.png"></td>
+                        <td>Rob Holding</td><td>England</td><td>16</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Laporte.png"></td>
+                        <td>Cédric Soares</td><td>Portugal</td><td>17</td>
+                    </tr>                   
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Tomiyasu.png"></td>
+                        <td>Takehiro Tomiyasu</td><td>Japan</td><td>18</td>
+                    </tr> 
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Notts Forest/Portugal.png"></td>
+                        <td>Nuno Tavares</td><td>Portugal</td><td>20</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Marí.png"></td>
+                        <td>Pablo Marí</td><td>Spain</td><td>22</td>
+                    </tr>                 
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Zinchenko.png"></td>
+                        <td>Oleksandr Zinchenko</td><td>Ukraine</td><td>35</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Midfielders</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Partey.png"></td>
+                        <td>Thomas Partey</td><td>Ghana</td><td>4</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Saka.png"></td>
+                        <td>Bukayo Saka</td><td>England</td><td>7</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Odegaard.png"></td>
+                        <td>Martin Odegaard</td><td>Norway</td><td>8</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Smith Rowe.png"></td>
+                        <td>Emile Smith Rowe</td><td>England</td><td>10</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Notts Forest/Maitland-Niles.png"></td>
+                        <td>Ainsley Maitland-Niles</td><td>England</td><td>15</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Vieira.png"></td>
+                        <td>Fábio Vieira</td><td>Portugal</td><td>21</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Lokonga.png"></td>
+                        <td>Albert Sambi Lokonga</td><td>Belgium</td><td>23</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Elneny.png"></td>
+                        <td>Mohamed Elneny</td><td>Egypt</td><td>25</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Xhaka.png"></td>
+                        <td>Granit Xhaka</td><td>Switzerland</td><td>34</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Forwards</h3>
+            <table class="table table-bordered table-hover align-middle">
+                <thead>
+                    <th>Image</th><th>Name</th><th>Nation</th><th>Number</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Jesus.png"></td>
+                        <td>Gabriel Jesus</td><td>Brazil</td><td>9</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Martinelli.png"></td>
+                        <td>Gabriel Martinelli</td><td>Brazil</td><td>11</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Nketiah.png"></td>
+                        <td>Eddie Nketiah</td><td>England</td><td>14</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Notts Forest/Pepe.png"></td>
+                        <td>Nicolas Pépé</td><td>Ivory Coast</td><td>19</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Nelson.png"></td>
+                        <td>Reiss Nelson</td><td>England</td><td>24</td>
+                    </tr>
+                    <tr class="text-danger">
+                        <td><img src="Pictures/Notts Forest/Balogun.png"></td>
+                        <td>Folarin Balogun</td><td>England</td><td>26</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pictures/Notts Forest/Marquinhos.png"></td>
+                        <td>Marquinhos</td><td>Brazil</td><td>27</td>
+                    </tr>
+                </tbody>
+            </table>
+	</div>
+			<hr>
+            <div class='titles'>
+                <h2>Titles</h2>
+                <h3>Domestic Competitions:</h3>
+                <h3>League</h3>
+                <h4>First Division/Premier League (13):</h4>
+                <p>1930–31, 1932–33, 1933–34, 1934–35, 1937–38, 1947–48, 1952–53, 1970–71, 1988–89, 1990–91, 1997–98, 2001–02, 2003–04</p>
+                <h3>Cups</h3>
+                <h4>FA Cup (14):</h4>
+                <p>1929–30, 1935–36, 1949–50, 1970–71, 1978–79, 1992–93, 1997–98, 2001–02, 2002–03, 2004–05, 2013–14, 2014–15, 2016–17, 2019-20</p>
+                <h4>League Cup (2):</h4>
+                <p> 1986–87, 1992–93</p>
+                <h4>FA Charity/Community Shield (16):</h4>
+                <p>1930, 1931, 1933, 1934, 1938, 1948, 1953, 1991, 1998, 1999, 2002, 2004, 2014, 2015, 2017, 2020</p>
+                <h3>European Competitions</h3>
+                <h4>UEFA Cup Winners' Cup (1):</h4>
+                <p>1993–94</p>
+                <h4>Inter-Cities Fairs Cup</h4>
+                <p>1969-70</p>
+            </div>
+        <div id="footer"></div>
+        <script>
+            $(document).ready(function() {
+                $("#footer").load("Templates/footer.html");
+            })        
+        </script>
+    </body>
+</html>

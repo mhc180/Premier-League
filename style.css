@@ -43,8 +43,8 @@ footer {
 }
 
 .header h1 {
-    width: 55%;
-    line-height: 225%;
+    width: 50%;
+    line-height: 200%;
     display: inline-block;
     vertical-align: middle;
     margin: auto;
@@ -134,8 +134,13 @@ table img {
 }
 
 .squad {
-    width:50%;
+    width: 100%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.squad table {
+    width: 50%;
 }
 
 /* team title colours */
@@ -262,4 +267,11 @@ table img {
 .wolves h1, .wolves th {
     color: black;
     background-color: #FF8100;
+}
+
+@media only screen and (max-width: 600px) {
+    .header img {
+      width: 20%;
+      height: auto;
+    }
 }

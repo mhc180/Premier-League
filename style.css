@@ -36,18 +36,24 @@ footer {
 
 /* header and intro */
 .header {
-    margin: 1% auto;
+    margin: 1px auto;
     text-align: center;
     width: 100%;
-    height: 125px;
+    height: fit-content;
+}
+
+.header img {
+    max-height: 150px;
+    width: auto;
+    margin: 1% auto;
 }
 
 .header h1 {
+    margin: 1% auto;
     width: 50%;
     line-height: 200%;
     display: inline-block;
-    vertical-align: middle;
-    margin: auto;
+    vertical-align: middle; 
 }
 
 .crest {
@@ -271,7 +277,7 @@ table img {
 
 @media only screen and (max-width: 600px) {
     .header img {
-        height: 100%;
-        width: auto;
+        width: 20%;
+        height: auto;
     }
 }

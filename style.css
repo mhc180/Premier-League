@@ -269,3 +269,9 @@ table img {
     background-color: #FF8100;
 }
 
+@media only screen and (max-width: 600px) {
+    .header img {
+        height: 100%;
+        width: auto;
+    }
+}

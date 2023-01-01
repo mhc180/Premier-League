@@ -128,8 +128,11 @@ table img {
 }
 
 .lgreen, .lgreen td {
-    background-color: rgba(200, 240, 192, 0.5);
-    border: 1px solid rgb(120, 201, 105);
+    background-color: #D4EFDF;
+}
+
+.purple, .purple td {
+    background-color: #BB8FCE;
 }
 
 .teamStats {
